@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CelojH1M2MifVdb8VCsPkSoTtOThOh0/1cTaOC6VJCGAsBgEhVefcYbp77zy6WYwW8A/nWOdU0DOk2J2wFbNBA==",
+  "dgSpecHash": "gQGaT+4skpKgyedZ0x873LLSoZJTGqEoO3Q5EYPkIaxfCues+5877AKHAuTyZYrFng+3/aIy05FXIyhnnSPExQ==",
   "success": true,
-  "projectFilePath": "D:\\AllWebProjects\\HotelManagement\\HotelManagement.csproj",
+  "projectFilePath": "C:\\Users\\tuan\\Desktop\\HotelManagementWithASP.NET\\HotelManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tuan\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

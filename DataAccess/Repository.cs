@@ -324,6 +324,11 @@ namespace HotelManagement.DataAccess
             context.SaveChanges();
         }
 
+        public void updateTrangThaiPhongs(IEnumerable<Phong> phongs)
+        {
+            context.Phongs.UpdateRange(phongs);
+            context.SaveChanges();
+        }
 
     }
 }

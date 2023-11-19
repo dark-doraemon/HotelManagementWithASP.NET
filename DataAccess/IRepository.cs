@@ -1,4 +1,5 @@
 ﻿using HotelManagement.Models;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 
 namespace HotelManagement.DataAccess
 {
@@ -74,6 +75,8 @@ namespace HotelManagement.DataAccess
         IEnumerable<KhachHang> getKhachHang { get; }
 
         public void removeKhachHang(string makhachhang);
+
+        public void updateTrangThaiPhongs(IEnumerable<Phong> phongs);
 
     }
 }

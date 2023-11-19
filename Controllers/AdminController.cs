@@ -142,13 +142,15 @@ namespace HotelManagement.Controllers
         public IActionResult xoaKhachHang(string personid)
         {
             var orderphongs = repo.getOrdrPhongByPerson(personid);
-
+            var phongs = orderphongs.Select(o => o.MaPhongNavigation)
+                .Select(p =>
+                {
+                    p.MaTrangThai = "MTT1";
+                    return p;
+                });
             //khi xóa khách hàng xong thì những phòng mà khách hàng order phải xóa theo
             //mà khi order phòng bị xóa thì trạng thái phòng phải chuyển sang thành là "trống" (MTT1)
-            foreach (var orderphong in orderphongs)
-            {
-                repo.updateTrangThaiPhong(orderphong.MaPhongNavigation.MaPhong, "MTT1");
-            }
+            repo.updateTrangThaiPhongs(phongs);
 
             repo.removeKhachHang(personid);
 

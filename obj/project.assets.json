@@ -2979,19 +2979,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tuan\\.nuget\\packages\\": {}
+    "C:\\Users\\tuan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AllWebProjects\\HotelManagement\\HotelManagement.csproj",
+      "projectUniqueName": "C:\\Users\\tuan\\Desktop\\HotelManagementWithASP.NET\\HotelManagement.csproj",
       "projectName": "HotelManagement",
-      "projectPath": "D:\\AllWebProjects\\HotelManagement\\HotelManagement.csproj",
+      "projectPath": "C:\\Users\\tuan\\Desktop\\HotelManagementWithASP.NET\\HotelManagement.csproj",
       "packagesPath": "C:\\Users\\tuan\\.nuget\\packages\\",
-      "outputPath": "D:\\AllWebProjects\\HotelManagement\\obj\\",
+      "outputPath": "C:\\Users\\tuan\\Desktop\\HotelManagementWithASP.NET\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
